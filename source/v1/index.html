@@ -1,202 +1,116 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
-    <title>PomoHero</title>
+    <meta name="description" content="Pomodoro Timer">
+    <meta name="keywords" content="Pomodoro Technique, Time Management, Focus">
+    <meta name="author" content="Team 30: Teamato">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="Images/PomoCountYesFavicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/PomoCountYesFavicon.png">
     <script src = "instructions_smooth_scroll.js"></script>
+    <title>PomoHero</title>
   </head>
+
   <body>
-    <div class="header-container">
-      <a href="#">
-        <img class="pomo-logo" src="Images/PomoLogoCropped.png" alt="pomo hero logo" href="#">
-      </a>
-      <a href="#">
-        <img class="banner" src="Images/PomoTitle.png" alt="PomoHero Banner" >
-      </a>
-      <!-- Instruction button -->
-      <button type="button" id="instruct_btn" href="#instructions">
-        Instructions
-      </button>
-    </div>
-    <hr>
-    <div class="top-container">
-      <div class="main-box">
-        <div class="timer-box">
-          <h1 id="work-message">Pomodoro Get to Work!</h3>
-          <div class="timer">
-            <h1 id="time-display">22:37</h1>
-            <h3 id="pomos-completed">Pomodoros Completed:</h3>
-            <br />
-            <img id="pomo1" class="pomo-count" src="Images/PomoCountYes.png" alt="">
-            <img id="pomo2" class="pomo-count" src="Images/PomoCountYes.png" alt="">
-            <img id="pomo3" class="pomo-count" src="Images/PomoCountNo.png" alt="">
-            <img id="pomo4" class="pomo-count" src="Images/PomoCountNo.png" alt="">
+
+    <div style="height: 100vh;">
+
+      <header class="header-container">
+        <a href="#">
+          <img class="pomo-logo" src="../images/PomoHeroLogo.png" alt="PomoHero Logo" href="#">
+        </a>
+        <a href="#">
+          <img class="banner" src="../images/title.png" alt="PomoHero Banner" >
+        </a>
+      </header>
+
+      <main>
+        <div class="top-container">
+        
+          <div class="nav">
+            <a id="instruct_btn" href="#instructions">
+              <img src="../images/menu.png" alt="menu" width="30px">
+            </a>
+            <div id="show-hide">
+              <a id="instruct_btn" href="#instructions">
+                <img src="../images/info.png" alt="i" width="30px">
+              </a>
+            </div>
           </div>
-          <!-- <div class="pomo-complete-box">
 
-          </div> -->
-            <a id="start-btn" class="custom-btn" href="#">Start Pomo!</a>
-            <a id="end-btn" class="custom-btn" href="#">End Session</a>
+          <div class="main-box row">
+            <div class="timer-box">
+              <h1 id="work-message">Time to Work!</h3>
+              <div class="timer">
+                <span>
+                  <h1 id="time-display">25:00</h1>
+                </span>
+              </div>
+              <h3 id="pomos-completed">
+                Number of Pomodoros Completed:
+                <br>
+                <img id="pomo1" class="pomo-count" src="../images/PomoCountYes.png">
+                <img id="pomo2" class="pomo-count" src="../images/PomoCountYes.png">
+                <img id="pomo3" class="pomo-count" src="../images/PomoCountNo.png">
+                <img id="pomo4" class="pomo-count" src="../images/PomoCountNo.png">
+              </h3>
+              <!-- <div class="pomo-complete-box">
+  
+              </div> -->
+              <a id="start-btn" class="custom-btn" href="#">Start</a>
+              <a id="end-btn" class="custom-btn" href="#">End</a>
+            </div>
+          </div>
         </div>
-      </div>
+      </main>
+
     </div>
 
-    <div class="middle-container">
+    <!--div class="middle-container">
 
       <h3 class="h3-tasks">Current Task: </h3>
       <hr id="special-hr">
       <h3 class="h3-tasks">Next Task: </h3>
-    </div>
-    <div class="bottom-container">
-      <a class="footer-link" href="https://instagram.com">Instagram</a>
-      <a class="footer-link" href="https://www.facebook.com">Facebook</a>
-      <a class="footer-link" href="https://github.com/ynshah3/cse110-w21-group30/wiki">Github</a>
-      <p class="copy-right">© PomoHero 2021</p>
-    </div>
+    </div-->
 
     <!-- Instruction section -->
-    <section class="section" id="instructions" style="display: flex; flex-direction: column;">
-      <h2 class="instruct-head">
-        INSTRUCTIONS
-      </h2>
-
-      <p>
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions. 
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        Yo! Dont waste your time bruv. Get back to work. Shoutout Yash for all the instructions.
-        
-      </p>
+    <section id="instructions" style="background-color: #CBDEF3; display: flex; flex-direction: column;">
+      <div class="center-column">
+        <h2 class="instruct-head">
+          INSTRUCTIONS
+        </h2>
+        <h3>How To Use</h3>
+        <p>  
+          <ul>
+            <li>List all of the tasks you want to get done for the day</li>
+            <li>Click on “Start” when you are ready</li>
+            <li>Once started, there is no going back. The timer won’t stop</li>
+            <li>Take a 5-minute break after every Pomodoro and a 30-minute break after every 4
+              Pomodoros</li>
+            <li>Get distracted at your own risk. If distracted, click “Restart” and you will have to start
+              your current interval from the very beginning</li>
+            <li>Have other jobs to do? Hit “End Session” to log out</li>
+          </ul>
+        </p>
+        <h3>Pomodoro Technique</h3>
+        <p>
+          The Pomodoro technique is a scientifically proven way 
+          to help increase productivity. 
+          It is a way to work with time instead of struggling against it. 
+          It is a smart method for handling interruptions, 
+          meeting deadlines, improving content of work, 
+          and reducing useless work sessions.
+        </p>
+      </div>
     </section>
+
+    <footer class="bottom-container">
+      <!--a class="footer-link" href="https://instagram.com">Instagram</a>
+      <a class="footer-link" href="https://www.facebook.com">Facebook</a>
+      <a class="footer-link" href="https://github.com/ynshah3/cse110-w21-group30/wiki">Github</a-->
+      <p class="copy-right">© PomoHero 2021</p>
+    </footer>
+
   </body>
 </html>
