@@ -42,4 +42,3 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           PROJECT_ID: pomo-hero-test
-          PROJECT_PATH: ./config/firebase.json
