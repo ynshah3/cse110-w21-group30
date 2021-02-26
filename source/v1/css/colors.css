@@ -1,0 +1,139 @@
+/***********************
+ * Color for HTML Tags *
+ ***********************/
+hr {
+  color: #79a3b1;
+}
+
+.header-container {
+  background-color: #1f288f;
+}
+
+/************************
+ * Color for Navigation *
+ ************************/
+
+.info-btn {
+  color: #fff;
+  background-color: #1f288f;
+}
+
+.info-btn:hover {
+  background-color: rgb(240, 197, 104);
+}
+
+.task-btn {
+  color: #1f288f;
+}
+
+.task-btn:hover {
+  color: rgb(240, 197, 104);
+}
+
+/*****************************
+ * Color for Slide-out Tasks *
+ *****************************/
+
+.sidenav {
+  background-color: #fff;
+}
+
+.btn {
+  color: #1f288f;
+}
+
+.btn:hover {
+  color: rgb(240, 197, 104);
+}
+
+/****************************
+ * Color for Pomodoro Timer *
+ ****************************/
+.timer-section {
+  background-color: #fff;
+}
+
+.timer-box {
+  background-color: #1f288f;
+}
+
+.timer {
+  background-color: #1f288f;
+}
+
+#time-display {
+  color: #fff;
+}
+
+#work-message {
+  color: #fff;
+}
+
+#pomos-completed {
+  color: #fff;
+}
+
+.custom-btn {
+  border-color: #fff;
+  color: #fff;
+  background: #1f288f;
+}
+
+.custom-btn:hover {
+  background-color: #fff;
+  color: #1f288f;
+}
+
+/****************************
+ * Color for Viewable Tasks *
+ ****************************/
+
+.middle-container {
+  background-color: #fff;
+}
+
+#current {
+  background-color: #fff;
+  color: #000;
+  border-color: #1f288f;
+}
+
+#next {
+  background-color: rgb(234, 234, 245);
+  color: rgb(48, 46, 46);
+  border-color: #1f288f;
+}
+
+/**************************
+ * Color for Instructions *
+ **************************/
+
+.instruct-head {
+  color: #fff;
+  background-color: #e07d0b;
+}
+
+#instructions-para {
+  background-color: #fff;
+}
+
+.arrow-up-icon {
+  color: #fff;
+}
+
+.instruct-bottom {
+  background-color: rgb(224, 125, 11);
+}
+
+.arrow-up-icon:hover {
+  color: #000;
+}
+
+/********************
+ * Color for Footer *
+ ********************/
+
+.copy-right {
+  background-color: #1f288f;
+  color: #fff;
+}
