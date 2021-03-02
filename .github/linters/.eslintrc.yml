@@ -21,19 +21,14 @@ globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
 
+extends: "eslint:recommended"
+
 ###############
 # Parser vars #
 ###############
-parser: '@typescript-eslint/parser'
 parserOptions:
-  ecmaVersion: 2018
+  ecmaVersion: 6
   sourceType: module
-
-###########
-# Plugins #
-###########
-plugins:
-  - '@typescript-eslint'
 
 #########
 # Rules #
