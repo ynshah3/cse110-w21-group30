@@ -2,6 +2,7 @@
 node_modules/
 .vscode/
 
+coverage/
 /cypress/
 /source/v1/cypress
 /source/v1/js/taskList.test.js
