@@ -330,7 +330,9 @@ TimerContainer.A_STATE_DURATIONS = [1500000, 300000, 2100000, 0];
  * @static
  * @type {string[]}
  */
-TimerContainer.A_STATE_MESSAGES = ["Pomodoro - Start working!", "Short Break - Good job!", "Long Break - Relax", "Ready to focus?"];
+TimerContainer.A_STATE_MESSAGES = ["Pomodoro MAN Tells You to Start working!", "Short Break - Good job!", "Long" +
+" Break -" +
+" Relax", "Ready to focus?"];
 
 /**
  * Delay of interval
