@@ -172,9 +172,13 @@ class EventBus {
         let s_next_task = this.o_task_list.getNextTask();
         let s_next_next_task = this.o_task_list.getNextNextTask();
         let n_num_tasks = Math.min(this.o_task_list.getNumTasks(), 2);
-        this.o_task_display.setAttribute("currtask", s_next_task);
-        this.o_task_display.setAttribute("nexttask", s_next_next_task);
-        this.o_task_display.setAttribute("numtasks", n_num_tasks);
+        this.o_task_display.setAttribute("currtask", EventBus.pomoify(s_next_task));
+        this.o_task_display.setAttribute("nexttask", EventBus.pomoify(s_next_next_task));
+        this.o_task_display.setAttribute("numtasks", EventBus.pomoify(n_num_tasks));
+    }
+
+    static pomoify(str) {
+        return `POMOMAN-${str}`;
     }
 }
 /**
